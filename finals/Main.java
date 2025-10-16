@@ -26,7 +26,6 @@ public class Main {
 			    enemy = new Warrior("Enemy Warrior");
 			}
 
-			// Game loop
 			while (player.isAlive() && enemy.isAlive()) {
 			    player.showStats();
 			    enemy.showStats();
@@ -64,3 +63,4 @@ public class Main {
 		}
     }
 }
+
